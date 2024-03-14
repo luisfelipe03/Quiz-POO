@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultado do Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="navbar">Resultado do Quiz</div>
+<div class="container mt-5">
+    <div id="resultadoQuiz" class="text-center">
+        <h1>Resultado do Quiz</h1>
+        <p id="mensagemResultado"></p>
+        <a href="home.html" class="btn btn-primary">Tentar Novamente</a>
+    </div>
+</div>
+<div class="footer">© 2024 Quiz POO. Todos os direitos reservados.</div>
+<script>
+$(document).ready(function() {
+    // Extrai os parâmetros da URL
+    let params = new URLSearchParams(window.location.search);
+    let score = parseInt(params.get('score'), 10);
+    let total = parseInt(params.get('total'), 10);
+    let percentual = (score / total) * 100;
+
+    let mensagem = "Sua pontuação: " + score + "/" + total + " (" + percentual.toFixed(2) + "%). ";
+
+    // Avalia o desempenho com base na pontuação
+    if (percentual == 100) {
+        mensagem += "Perfeito! Você realmente domina o assunto!";
+    } else if (percentual >= 90) {
+        mensagem += "Esplêndido! Quase perfeito!";
+    } else if (percentual >= 80) {
+        mensagem += "Ótimo! Muito bem!";
+    } else if (percentual >= 70) {
+        mensagem += "Bom! Mas ainda há espaço para melhoria.";
+    } else {
+        mensagem += "O desempenho não foi tão bom, mas não desista!";
+    }
+
+    $('#mensagemResultado').text(mensagem);
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "O que é POO?",
+      "options": ["Programação Orientada a Objetos", "Programação em Ordem Oposta", "Processamento de Objetos Online"],
+      "answer": "Programação Orientada a Objetos"
+    },
+    {
+      "id": 2,
+      "question": "Qual é um princípio da POO?",
+      "options": ["Clonagem", "Encapsulamento", "Recursão"],
+      "answer": "Encapsulamento"
+    },
+    {
+      "id": 3,
+      "question": "Qual é um princípio da POO?",
+      "options": ["Clonagem", "Encapsulamento", "Recursão"],
+      "answer": "Encapsulamento"
+    }
+  ]
+}
