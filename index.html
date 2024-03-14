@@ -18,9 +18,36 @@
     <p>Teste seus conhecimentos sobre Programação Orientada a Objetos (POO) e descubra o quanto você sabe sobre classes, objetos, herança, polimorfismo e muito mais.</p>
     <p>Está pronto para o desafio? Avance pelas perguntas e veja seu desempenho no final.</p>
     <div class="text-center mt-4">
-        <a href="questions.html" id="btn-start" class="btn btn-light btn-lg">Iniciar o Quiz</a>
+        <button id="btn-start" class="btn btn-light btn-lg" onclick="$('#questionSelectModal').modal('show')">Iniciar o Quiz</button>
     </div>
 </div>
+
+<!-- Modal para seleção do número de questões -->
+<div class="modal" tabindex="-1" role="dialog" id="questionSelectModal">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Selecione o Número de Questões</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <select id="questionCountSelect" class="custom-select">
+            <option value="10">10 questões (Estou com pouco tempo)</option>
+            <option value="20">20 questões</option>
+            <option value="30">30 questões</option>
+            <option value="40">40 questões</option>
+            <option value="50">50 questões (Estou focado em passar em POO)</option>
+          </select>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" onclick="setQuestionCountAndStartQuiz()">Iniciar o Quiz</button>
+        </div>
+      </div>
+    </div>
+</div>
+  
 
 <footer class="footer mt-auto">
     <span>© 2024 Desenvolvido por Luis Felipe - </span><a href="https://github.com/luisfelipe03" target="_blank" style="color: #58a5f7;">Visite meu GitHub</a>

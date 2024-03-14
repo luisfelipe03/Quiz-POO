@@ -55,6 +55,11 @@ body {
     color: #ffffff;
 }
 
+.modal-content {
+    background: var(--background-dark);
+    color: var(--text-color-dark);
+}
+
 .footer {
     background: var(--footer-background-dark);
     position: absolute;
