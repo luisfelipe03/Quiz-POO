@@ -8,44 +8,28 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Estilo personalizado -->
     <link rel="stylesheet" href="style.css"> <!-- Adicione o caminho correto para seu arquivo CSS aqui -->
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
-            color: #fff;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-        .footer {
-            background-color: rgba(0, 0, 0, 0.2);
-            padding: 10px 20px;
-            text-align: center;
-            color: #fff;
-        }
-    </style>
 </head>
 <body>
 
-<div class="navbar">Quiz sobre POO</div>
+<div class="navbar">Quiz sobre POO<span class="theme-toggle-btn" onclick="toggleTheme()">Tema</span></div>
 
 <div class="container">
     <h1 class="text-center mt-5">Bem-vindo ao Quiz sobre POO!</h1>
     <p>Teste seus conhecimentos sobre Programação Orientada a Objetos (POO) e descubra o quanto você sabe sobre classes, objetos, herança, polimorfismo e muito mais.</p>
     <p>Está pronto para o desafio? Avance pelas perguntas e veja seu desempenho no final.</p>
     <div class="text-center mt-4">
-        <a href="questions.html" class="btn btn-light btn-lg">Iniciar o Quiz</a>
+        <a href="questions.html" id="btn-start" class="btn btn-light btn-lg">Iniciar o Quiz</a>
     </div>
 </div>
 
 <footer class="footer mt-auto">
-    <span>© 2024 Desenvolvido por Luis Felipe - </span><a href="https://github.com/seuusuario" target="_blank" style="color: #ffc107;">Visite meu GitHub</a>
+    <span>© 2024 Desenvolvido por Luis Felipe - </span><a href="https://github.com/luisfelipe03" target="_blank" style="color: #58a5f7;">Visite meu GitHub</a>
 </footer>
 
 <!-- Optional JavaScript -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+<script src="quiz.js"></script>
 </body>
 </html>

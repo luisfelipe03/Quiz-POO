@@ -3,8 +3,11 @@ let selectedOption = null;
 let correctAnswers = 0;
 let questions = [];
 
+// Adicionando controle de tema
+let isDarkTheme = true;
+
 function loadQuestions() {
-  fetch('questions.json') // Certifique-se de que o caminho para o arquivo questions.json está correto
+  fetch('questions.json')
     .then(response => response.json())
     .then(data => {
       questions = data.questions;
@@ -22,14 +25,12 @@ function displayQuestion() {
         ).join('');
         document.getElementById('options').innerHTML = optionsHtml;
     } else {
-        // Aqui você pode ajustar a lógica de redirecionamento se necessário
         window.location.href = "resultados.html?score=" + correctAnswers + "&total=" + questions.length;
     }
 }
 
 function selectOption(option, index) {
     selectedOption = option;
-    // Destaca a opção selecionada
     let optionsList = document.querySelectorAll('#options li');
     optionsList.forEach((li, idx) => {
         li.classList.remove('active');
@@ -48,3 +49,9 @@ document.getElementById('confirmButton').addEventListener('click', function() {
 window.onload = function() {
     loadQuestions();
 };
+
+function toggleTheme() {
+    isDarkTheme = !isDarkTheme;
+    document.body.classList.toggle('light-theme', !isDarkTheme);
+}
+
