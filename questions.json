@@ -231,6 +231,424 @@
         "Facilitar o polimorfismo entre diferentes subsistemas."
       ],
       "answer": "Proporcionar uma única interface para um conjunto de interfaces em um subsistema, tornando o subsistema mais fácil de ser usado."
+    },
+    {
+      "id": 23,
+      "question": "Em qual situação o padrão Fachada NÃO é recomendado?",
+      "options": [
+        "Quando há necessidade de reduzir a complexidade do acesso a vários sistemas.",
+        "Quando é desejável expor todas as funcionalidades complexas de um sistema para o usuário.",
+        "Quando se quer simplificar a interface de comunicação entre diferentes partes de um sistema.",
+        "Para facilitar a manutenção e a escalabilidade de um sistema complexo."
+      ],
+      "answer": "Quando é desejável expor todas as funcionalidades complexas de um sistema para o usuário."
+    },
+    {
+      "id": 24,
+      "question": "O que é uma característica dos testes automatizados?",
+      "options": [
+        "Eles eliminam completamente a necessidade de testes manuais.",
+        "São capazes de detectar todos os tipos de erros em um programa.",
+        "Permitem a execução repetida de um conjunto de testes sem intervenção manual.",
+        "São menos eficientes que os testes manuais em encontrar erros complexos."
+      ],
+      "answer": "Permitem a execução repetida de um conjunto de testes sem intervenção manual."
+    },
+    {
+      "id": 25,
+      "question": "No contexto de jUnit, o que é um teste de unidade?",
+      "options": [
+        "Um teste que verifica a funcionalidade de toda a aplicação.",
+        "Um teste que avalia o desempenho de um sistema sob carga pesada.",
+        "Um teste que verifica o comportamento de uma pequena parte do sistema, como um método ou classe.",
+        "Um teste que verifica a integração entre diferentes módulos ou serviços."
+      ],
+      "answer": "Um teste que verifica o comportamento de uma pequena parte do sistema, como um método ou classe."
+    },
+    {
+      "id": 26,
+      "question": "Qual dos seguintes NÃO é uma prática recomendada em testes automatizados?",
+      "options": [
+        "Escrever testes que dependem do estado de testes anteriores.",
+        "Isolar cada teste para que ele não dependa de outros testes.",
+        "Usar dados de teste representativos para verificar a correção do código.",
+        "Executar testes automaticamente como parte do processo de integração contínua."
+      ],
+      "answer": "Escrever testes que dependem do estado de testes anteriores."
+    },
+    {
+      "id": 27,
+      "question": "Em POO, o que é uma interface?",
+      "options": [
+        "Uma classe abstrata que pode conter métodos e atributos implementados.",
+        "Um contrato que especifica um conjunto de métodos que uma classe deve implementar.",
+        "Um método especial que é chamado sempre que um objeto é instanciado.",
+        "Uma técnica para ocultar a implementação de um método, expondo apenas o seu resultado."
+      ],
+      "answer": "Um contrato que especifica um conjunto de métodos que uma classe deve implementar."
+    },
+    {
+      "id": 28,
+      "question": "Qual é o principal propósito de usar interfaces em programação orientada a objetos?",
+      "options": [
+        "Permitir a múltipla herança de implementação em linguagens que não suportam diretamente.",
+        "Encapsular a implementação de métodos, tornando-os invisíveis para o usuário.",
+        "Substituir completamente as classes abstratas.",
+        "Aumentar a complexidade do código, tornando-o mais seguro."
+      ],
+      "answer": "Permitir a múltipla herança de implementação em linguagens que não suportam diretamente."
+    },
+    {
+      "id": 29,
+      "question": "Quando NÃO se deve usar uma interface?",
+      "options": [
+        "Quando se quer especificar um contrato que as classes devem seguir.",
+        "Quando várias classes compartilham uma estrutura comum e comportamentos, mas não há necessidade de impor um contrato para métodos públicos.",
+        "Quando a reutilização de código é uma prioridade.",
+        "Quando se deseja permitir que várias classes sejam tratadas de forma polimórfica."
+      ],
+      "answer": "Quando várias classes compartilham uma estrutura comum e comportamentos, mas não há necessidade de impor um contrato para métodos públicos."
+    },
+    {
+      "id": 30,
+      "question": "O que é uma classe em programação orientada a objetos?",
+      "options": [
+        "Uma função especial usada para criar objetos.",
+        "Um bloco de construção que permite criar tipos de dados personalizados.",
+        "Uma coleção de variáveis de diferentes tipos.",
+        "Um tipo de variável usada para armazenar múltiplos valores."
+      ],
+      "answer": "Um bloco de construção que permite criar tipos de dados personalizados."
+    },
+    {
+      "id": 31,
+      "question": "Qual é a principal função de um construtor dentro de uma classe?",
+      "options": [
+        "Inicializar as variáveis de instância de um objeto quando ele é criado.",
+        "Destruir uma instância de objeto quando ela não é mais necessária.",
+        "Alocar memória para os objetos.",
+        "Definir métodos que operam nos dados de um objeto."
+      ],
+      "answer": "Inicializar as variáveis de instância de um objeto quando ele é criado."
+    },
+    {
+      "id": 32,
+      "question": "Como são chamados os métodos que permitem acessar e modificar os valores das variáveis de instância de uma classe, respeitando os princípios de encapsulamento?",
+      "options": [
+        "Métodos de manipulação.",
+        "Métodos construtores.",
+        "Métodos de acesso e modificadores.",
+        "Métodos estáticos."
+      ],
+      "answer": "Métodos de acesso e modificadores."
+    },
+    {
+      "id": 33,
+      "question": "Qual das seguintes afirmações sobre um objeto é correta?",
+      "options": [
+        "Um modelo ou blueprint a partir do qual outras coisas podem ser construídas.",
+        "Uma função específica que realiza uma tarefa dentro de uma classe.",
+        "Uma instância concreta de uma classe que contém estados e comportamentos.",
+        "Uma variável especial que contém múltiplos valores de tipos diferentes."
+      ],
+      "answer": "Uma instância concreta de uma classe que contém estados e comportamentos."
+    },
+    {
+      "id": 34,
+      "question": "Em programação orientada a objetos, o que é encapsulamento?",
+      "options": [
+        "A prática de esconder os detalhes de implementação de um objeto, expondo apenas funcionalidades seguras para o usuário.",
+        "A habilidade de um objeto para assumir muitas formas.",
+        "A capacidade de uma classe herdar características de outra classe.",
+        "A divisão de um programa em várias pequenas partes."
+      ],
+      "answer": "A prática de esconder os detalhes de implementação de um objeto, expondo apenas funcionalidades seguras para o usuário."
+    },
+    {
+      "id": 35,
+      "question": "O que é um método de acesso em programação orientada a objetos?",
+      "options": [
+        "Um método que cria novos objetos.",
+        "Um método que permite modificar os valores das variáveis de instância de uma classe.",
+        "Um método que permite ler os valores das variáveis de instância de uma classe sem modificá-los.",
+        "A e C estão corretas."
+      ],
+      "answer": "Um método que permite ler os valores das variáveis de instância de uma classe sem modificá-los."
+    },
+    {
+      "id": 36,
+      "question": "Qual dos seguintes conceitos descreve melhor o termo 'encapsulamento' em programação orientada a objetos?",
+      "options": [
+        "A capacidade de uma classe herdar características de outra classe.",
+        "O processo de esconder os detalhes de implementação de um objeto, expondo apenas funcionalidades seguras para o usuário.",
+        "A prática de dividir um programa em várias partes menores para facilitar a compreensão e manutenção.",
+        "A habilidade de um objeto para assumir muitas formas."
+      ],
+      "answer": "O processo de esconder os detalhes de implementação de um objeto, expondo apenas funcionalidades seguras para o usuário."
+    },
+    {
+      "id": 37,
+      "question": "Qual dos seguintes princípios é exemplificado pelo conceito de 'encapsulamento'?",
+      "options": [
+        "Abstração",
+        "Herança",
+        "Polimorfismo",
+        "Modularidade"
+      ],
+      "answer": "Modularidade"
+    },
+    {
+      "id": 38,
+      "question": "O que é sobrecarga de método em programação orientada a objetos?",
+      "options": [
+        "O processo de ocultar os detalhes de implementação de um método, expondo apenas a sua interface.",
+        "A capacidade de uma classe herdar métodos e atributos de várias classes base.",
+        "A prática de fornecer vários métodos com o mesmo nome, mas com diferentes parâmetros.",
+        "A habilidade de um método operar de maneira diferente com base no objeto que o invoca."
+      ],
+      "answer": "A prática de fornecer vários métodos com o mesmo nome, mas com diferentes parâmetros."
+    },
+    {
+      "id": 39,
+      "question": "Qual é o objetivo principal da sobrecarga de método em programação orientada a objetos?",
+      "options": [
+        "Reduzir a complexidade do código, tornando-o mais fácil de entender e manter.",
+        "Permitir que um método opere de maneira diferente com base no objeto que o invoca.",
+        "Proporcionar uma maneira de reutilizar métodos e comportamentos em diferentes partes de um programa.",
+        "Permitir que métodos com o mesmo nome realizem operações diferentes, dependendo dos argumentos fornecidos."
+      ],
+      "answer": "Permitir que métodos com o mesmo nome realizem operações diferentes, dependendo dos argumentos fornecidos."
+    },
+    {
+      "id": 40,
+      "question": "O que é uma classe abstrata em programação orientada a objetos?",
+      "options": [
+        "Uma classe que contém apenas métodos abstratos e não pode ser instanciada.",
+        "Uma classe que não pode ser herdada por outras classes.",
+        "Uma classe que implementa uma interface específica.",
+        "Uma classe que não possui métodos ou atributos."
+      ],
+      "answer": "Uma classe que contém apenas métodos abstratos e não pode ser instanciada."
+    },
+    {
+      "id": 41,
+      "question": "Qual das seguintes opções descreve melhor a utilidade de uma classe abstrata em programação orientada a objetos?",
+      "options": [
+        "Fornecer uma implementação concreta para um conjunto de métodos que outras classes podem herdar.",
+        "Permitir que objetos de diferentes classes sejam tratados de maneira polimórfica.",
+        "Forçar subclasses a implementar métodos específicos.",
+        "Servir como um modelo genérico a partir do qual classes mais específicas podem ser derivadas."
+      ],
+      "answer": "Servir como um modelo genérico a partir do qual classes mais específicas podem ser derivadas."
+    },
+    {
+      "id": 42,
+      "question": "Qual é o propósito principal de uma classe abstrata em programação orientada a objetos?",
+      "options": [
+        "Permitir a criação de objetos que compartilham uma estrutura comum e comportamentos, mas não podem ser instanciados diretamente.",
+        "Forçar subclasses a implementar métodos específicos.",
+        "Permitir que objetos de diferentes classes sejam tratados de maneira polimórfica.",
+        "Fornecer uma implementação concreta para um conjunto de métodos que outras classes podem herdar."
+      ],
+      "answer": "Forçar subclasses a implementar métodos específicos."
+    },
+    {
+      "id": 43,
+      "question": "Em programação orientada a objetos, o que é um método abstrato?",
+      "options": [
+        "Um método que não possui implementação e deve ser definido por qualquer classe que herde a classe abstrata que o contém.",
+        "Um método que é acessado diretamente por outras classes.",
+        "Um método que não pode ser sobrescrito por subclasses.",
+        "Um método que é privado e não pode ser acessado por outras classes."
+      ],
+      "answer": "Um método que não possui implementação e deve ser definido por qualquer classe que herde a classe abstrata que o contém."
+    },
+    {
+      "id": 44,
+      "question": "Qual é a principal diferença entre uma classe abstrata e uma interface em programação orientada a objetos?",
+      "options": [
+        "Uma classe abstrata pode conter métodos concretos, enquanto uma interface não pode.",
+        "Uma interface pode conter variáveis de instância, enquanto uma classe abstrata não pode.",
+        "Uma classe abstrata pode ser instanciada diretamente, enquanto uma interface não pode.",
+        "Uma interface pode herdar de múltiplas interfaces, enquanto uma classe abstrata pode herdar apenas de uma classe base."
+      ],
+      "answer": "Uma classe abstrata pode conter métodos concretos, enquanto uma interface não pode."
+    },
+    {
+      "id": 45,
+      "question": "Qual é o principal objetivo de uma interface em programação orientada a objetos?",
+      "options": [
+        "Permitir que objetos de diferentes classes sejam tratados de maneira polimórfica.",
+        "Forçar subclasses a implementar métodos específicos.",
+        "Fornecer uma implementação concreta para um conjunto de métodos que outras classes podem herdar.",
+        "Definir um contrato que especifica um conjunto de métodos que uma classe deve implementar."
+      ],
+      "answer": "Definir um contrato que especifica um conjunto de métodos que uma classe deve implementar."
+    },
+    {
+      "id": 46,
+      "question": "O que é polimorfismo em programação orientada a objetos?",
+      "options": [
+        "A capacidade de uma classe herdar métodos e atributos de várias classes base.",
+        "A prática de dividir um programa em várias partes menores para facilitar a compreensão e manutenção.",
+        "A habilidade de um método operar de maneira diferente com base no objeto que o invoca.",
+        "A técnica de esconder os detalhes de implementação de uma classe e mostrar apenas a funcionalidade ao usuário."
+      ],
+      "answer": "A habilidade de um método operar de maneira diferente com base no objeto que o invoca."
+    },
+    {
+      "id": 47,
+      "question": "Qual é o propósito principal do polimorfismo em programação orientada a objetos?",
+      "options": [
+        "Reduzir a complexidade do código, tornando-o mais fácil de entender e manter.",
+        "Permitir que uma classe seja herdada por várias classes filhas.",
+        "Facilitar a criação de hierarquias de herança profundas.",
+        "Permitir que diferentes classes compartilhem uma interface comum e possam ser tratadas de maneira polimórfica."
+      ],
+      "answer": "Permitir que diferentes classes compartilhem uma interface comum e possam ser tratadas de maneira polimórfica."
+    },
+    {
+      "id": 48,
+      "question": "Qual é a principal vantagem de se usar polimorfismo em programação orientada a objetos?",
+      "options": [
+        "Aumentar a complexidade do código, tornando-o mais difícil de entender e manter.",
+        "Facilitar a criação de hierarquias de herança profundas.",
+        "Permitir que objetos de diferentes classes sejam tratados de maneira polimórfica.",
+        "Reduzir a necessidade de testes automatizados."
+      ],
+      "answer": "Permitir que objetos de diferentes classes sejam tratados de maneira polimórfica."
+    },
+    {
+      "id": 49,
+      "question": "Em programação orientada a objetos, o que é um objeto?",
+      "options": [
+        "Uma variável especial que contém múltiplos valores de tipos diferentes.",
+        "Uma instância concreta de uma classe que contém estados e comportamentos.",
+        "Uma função específica que realiza uma tarefa dentro de uma classe.",
+        "Um modelo ou blueprint a partir do qual outras coisas podem ser construídas."
+      ],
+      "answer": "Uma instância concreta de uma classe que contém estados e comportamentos."
+    },
+    {
+      "id": 50,
+      "question": "Qual é a diferença entre um método estático e um método de instância em programação orientada a objetos?",
+      "options": [
+        "Um método estático pode ser chamado sem instanciar um objeto da classe, enquanto um método de instância requer um objeto para ser instanciado.",
+        "Um método estático opera apenas em variáveis de instância, enquanto um método de instância opera apenas em variáveis estáticas.",
+        "Um método estático só pode ser sobrescrito por subclasses, enquanto um método de instância pode ser acessado diretamente.",
+        "Um método estático é mais eficiente em termos de uso de memória do que um método de instância."
+      ],
+      "answer": "Um método estático pode ser chamado sem instanciar um objeto da classe, enquanto um método de instância requer um objeto para ser instanciado."
+    },
+    {
+      "id": 51,
+      "question": "O que é herança em programação orientada a objetos?",
+      "options": [
+        "O processo de ocultar os detalhes de implementação de um objeto, expondo apenas funcionalidades seguras para o usuário.",
+        "A técnica de criar uma nova classe baseada em uma classe existente, herdando seus atributos e métodos.",
+        "A habilidade de um método operar de maneira diferente com base no objeto que o invoca.",
+        "O processo de dividir um programa em várias partes menores para facilitar a compreensão e manutenção."
+      ],
+      "answer": "A técnica de criar uma nova classe baseada em uma classe existente, herdando seus atributos e métodos."
+    },
+    {
+      "id": 52,
+      "question": "Qual é a principal vantagem da herança em programação orientada a objetos?",
+      "options": [
+        "Reduzir a complexidade do código, tornando-o mais fácil de entender e manter.",
+        "Permitir que objetos de diferentes classes sejam tratados de maneira polimórfica.",
+        "Facilitar a criação de hierarquias de herança profundas.",
+        "Permitir que uma classe seja herdada por várias classes filhas."
+      ],
+      "answer": "Permitir que objetos de diferentes classes sejam tratados de maneira polimórfica."
+    },
+    {
+      "id": 53,
+      "question": "Quais são os tipos de herança comuns em programação orientada a objetos?",
+      "options": [
+        "Herança simples e múltipla",
+        "Herança pública e privada",
+        "Herança abstrata e concreta",
+        "Herança estática e dinâmica"
+      ],
+      "answer": "Herança simples e múltipla"
+    },
+    {
+      "id": 54,
+      "question": "O que é um construtor em programação orientada a objetos?",
+      "options": [
+        "Um método que é acessado diretamente por outras classes.",
+        "Um método que é chamado automaticamente quando um objeto é instanciado, utilizado para inicializar o estado do objeto.",
+        "Um método que não possui implementação e deve ser definido por qualquer classe que herde a classe abstrata que o contém.",
+        "Um método que permite a criação de novas instâncias de uma classe."
+      ],
+      "answer": "Um método que é chamado automaticamente quando um objeto é instanciado, utilizado para inicializar o estado do objeto."
+    },
+    {
+      "id": 55,
+      "question": "O que é destrutor em programação orientada a objetos?",
+      "options": [
+        "Um método que é chamado automaticamente quando um objeto é criado, utilizado para liberar recursos alocados durante a inicialização.",
+        "Um método que é chamado automaticamente quando um objeto é destruído, utilizado para liberar recursos alocados durante a vida útil do objeto.",
+        "Um método que permite a destruição de objetos antes que eles saiam do escopo.",
+        "Um método que permite que objetos de diferentes classes sejam tratados de maneira polimórfica."
+      ],
+      "answer": "Um método que é chamado automaticamente quando um objeto é destruído, utilizado para liberar recursos alocados durante a vida útil do objeto."
+    },
+    {
+      "id": 56,
+      "question": "O que é composição em programação orientada a objetos?",
+      "options": [
+        "Um método que permite a criação de novas instâncias de uma classe.",
+        "A técnica de criar uma nova classe baseada em uma classe existente, herdando seus atributos e métodos.",
+        "A prática de dividir um programa em várias partes menores para facilitar a compreensão e manutenção.",
+        "A técnica de criar objetos complexos combinando vários objetos menores."
+      ],
+      "answer": "A técnica de criar objetos complexos combinando vários objetos menores."
+    },
+    {
+      "id": 57,
+      "question": "Qual é a diferença entre herança e composição em programação orientada a objetos?",
+      "options": [
+        "Herança é uma relação 'é um', enquanto composição é uma relação 'tem um'.",
+        "Herança é uma técnica para criar objetos complexos combinando vários objetos menores, enquanto composição é uma técnica para criar uma nova classe baseada em uma classe existente.",
+        "Herança é uma técnica para criar uma nova classe baseada em uma classe existente, enquanto composição é uma técnica para criar objetos complexos combinando vários objetos menores.",
+        "Herança é uma relação 'tem um', enquanto composição é uma relação 'é um'."
+      ],
+      "answer": "Herança é uma técnica para criar uma nova classe baseada em uma classe existente, enquanto composição é uma técnica para criar objetos complexos combinando vários objetos menores."
+    },
+    {
+      "id": 58,
+      "question": "O que é acoplamento em programação orientada a objetos?",
+      "options": [
+        "A prática de criar classes que dependem umas das outras de forma excessiva.",
+        "A técnica de criar uma nova classe baseada em uma classe existente, herdando seus atributos e métodos.",
+        "A técnica de criar objetos complexos combinando vários objetos menores.",
+        "A medida da dependência entre duas classes."
+      ],
+      "answer": "A medida da dependência entre duas classes."
+    },
+    {
+      "id": 59,
+      "question": "Qual é o objetivo principal de se reduzir o acoplamento entre classes em programação orientada a objetos?",
+      "options": [
+        "Facilitar a criação de hierarquias de herança profundas.",
+        "Tornar o código mais fácil de entender e manter, reduzindo a dependência entre classes.",
+        "Permitir que objetos de diferentes classes sejam tratados de maneira polimórfica.",
+        "Forçar subclasses a implementar métodos específicos."
+      ],
+      "answer": "Tornar o código mais fácil de entender e manter, reduzindo a dependência entre classes."
+    },
+    {
+      "id": 60,
+      "question": "O que é coesão em programação orientada a objetos?",
+      "options": [
+        "A prática de criar classes que dependem umas das outras de forma excessiva.",
+        "A medida da dependência entre duas classes.",
+        "A técnica de criar uma nova classe baseada em uma classe existente, herdando seus atributos e métodos.",
+        "A medida da força de ligação interna de uma classe, indicando quão focada e especializada é sua responsabilidade."
+      ],
+      "answer": "A medida da força de ligação interna de uma classe, indicando quão focada e especializada é sua responsabilidade."
     }
   ]
 }
