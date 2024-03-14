@@ -6,10 +6,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="navbar">Quiz POO<span class="theme-toggle-btn" onclick="toggleTheme()">Tema</span></div>
+    <div class="navbar"> <span class="quiz-title" onclick="confirmHomeRedirect()">Quiz POO</span><span class="theme-toggle-btn" onclick="toggleTheme()">Tema</span></div>
+
 <div class="container mt-5">
     <div id="quizContainer" class="d-flex flex-column align-items-center">
         <h1 class="mb-4">Quiz sobre POO</h1>
+        <!-- Adicione esta linha para mostrar o progresso atual -->
+        <div id="progress" class="mb-2">Questão: 1 / 10</div>
         <div id="question" class="mb-3"></div>
         <ul id="options" class="list-group mb-3"></ul>
         <button id="confirmButton" class="btn btn-success mb-3">Confirmar</button>

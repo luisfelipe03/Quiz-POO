@@ -14,9 +14,223 @@
     },
     {
       "id": 3,
-      "question": "Qual é um princípio da POO?",
-      "options": ["Clonagem", "Encapsulamento", "Recursão"],
-      "answer": "Encapsulamento"
+      "question": "Qual das seguintes opções melhor descreve uma associação do tipo \"Agregação\"?",
+      "options": [
+        "Uma classe é proprietária de outra classe, e a classe proprietária é responsável pela criação e destruição da classe de propriedade.",
+        "Uma classe utiliza outra, mas ambas podem existir independentemente.",
+        "Uma classe é uma versão especializada de outra classe.",
+        "Uma classe implementa a interface definida por outra classe."
+      ],
+      "answer": "Uma classe utiliza outra, mas ambas podem existir independentemente."
+    },
+    {
+      "id": 4,
+      "question": "Em um relacionamento de composição:",
+      "options": [
+        "Os objetos associados podem existir independentemente uns dos outros.",
+        "O objeto contêiner é responsável pela existência e ciclo de vida dos objetos contidos.",
+        "Os objetos associados partilham a mesma interface.",
+        "O objeto contido conhece e controla o objeto contêiner."
+      ],
+      "answer": "O objeto contêiner é responsável pela existência e ciclo de vida dos objetos contidos."
+    },
+    {
+      "id": 5,
+      "question": "Qual a diferença principal entre Agregação e Composição?",
+      "options": [
+        "A Composição é usada para modelar relações todo-parte, enquanto a Agregação é usada para modelar relações parte-parte.",
+        "Na Agregação, a parte pode existir sem o todo, enquanto na Composição, a parte não pode existir sem o todo.",
+        "A Agregação não permite o compartilhamento de objetos, enquanto a Composição permite.",
+        "A Composição é uma forma de herança, enquanto a Agregação é uma forma de polimorfismo."
+      ],
+      "answer": "Na Agregação, a parte pode existir sem o todo, enquanto na Composição, a parte não pode existir sem o todo."
+    },
+    {
+      "id": 6,
+      "question": "Em POO, o que a herança múltipla permite?",
+      "options": [
+        "Uma classe herdar métodos e atributos de várias classes base.",
+        "Uma classe ser herdada por várias classes filhas.",
+        "Uma classe implementar múltiplas interfaces.",
+        "Uma classe dividir seus métodos e atributos igualmente entre suas classes filhas."
+      ],
+      "answer": "Uma classe herdar métodos e atributos de várias classes base."
+    },
+    {
+      "id": 7,
+      "question": "Considerando a herança em POO, qual das seguintes afirmações é verdadeira?",
+      "options": [
+        "A herança permite que uma classe filha redefina qualquer método da classe pai, exceto métodos privados.",
+        "A herança é o mecanismo pelo qual uma classe pode ser transformada em qualquer uma de suas subclasses.",
+        "A herança de implementação é mais flexível do que a herança de interface.",
+        "Uma classe pode herdar comportamentos de apenas uma classe pai em linguagens que não suportam herança múltipla."
+      ],
+      "answer": "Uma classe pode herdar comportamentos de apenas uma classe pai em linguagens que não suportam herança múltipla."
+    },
+    {
+      "id": 8,
+      "question": "Qual dos seguintes princípios não é uma prática recomendada em herança?",
+      "options": [
+        "Preferir composição sobre herança quando possível.",
+        "Usar herança para compartilhar código entre classes relacionadas.",
+        "Criar hierarquias de herança profundas para maximizar o reuso de código.",
+        "Usar herança para estabelecer uma relação is-a entre classes."
+      ],
+      "answer": "Criar hierarquias de herança profundas para maximizar o reuso de código."
+    },
+    {
+      "id": 9,
+      "question": "Polimorfismo é:",
+      "options": [
+        "A capacidade de uma classe de herdar atributos e métodos de mais de uma classe pai.",
+        "A capacidade de um método operar de maneira diferente com base no objeto que o invoca.",
+        "O processo de esconder os detalhes internos de como uma classe realiza suas operações.",
+        "A prática de projetar classes para serem extensíveis sem modificar o código existente."
+      ],
+      "answer": "A capacidade de um método operar de maneira diferente com base no objeto que o invoca."
+    },
+    {
+      "id": 10,
+      "question": "Em qual dos seguintes cenários o polimorfismo é mais útil?",
+      "options": [
+        "Quando é necessário acessar métodos específicos de uma classe sem conhecer o tipo de objeto.",
+        "Quando várias classes derivadas de uma única classe base são tratadas como objetos da classe base.",
+        "Quando a interface de uma classe é alterada frequentemente.",
+        "Quando uma classe precisa ser protegida contra alterações futuras em suas classes base."
+      ],
+      "answer": "Quando várias classes derivadas de uma única classe base são tratadas como objetos da classe base."
+    },
+    {
+      "id": 11,
+      "question": "Qual é o conceito mais próximo ao polimorfismo?",
+      "options": [
+        "Encapsulamento",
+        "Injeção de dependência",
+        "Sobrecarga de métodos",
+        "Acoplamento"
+      ],
+      "answer": "Sobrecarga de métodos"
+    },
+    {
+      "id": 12,
+      "question": "O que é abstração em POO?",
+      "options": [
+        "A técnica de esconder os detalhes de implementação de uma classe e mostrar apenas a funcionalidade ao usuário.",
+        "O processo de derivar classes concretas de uma classe abstrata, implementando seus métodos abstratos.",
+        "A capacidade de uma classe se transformar em qualquer uma de suas subclasses.",
+        "O método de separar a interface de uma classe de sua implementação."
+      ],
+      "answer": "A técnica de esconder os detalhes de implementação de uma classe e mostrar apenas a funcionalidade ao usuário."
+    },
+    {
+      "id": 13,
+      "question": "Qual das seguintes opções é um exemplo de abstração?",
+      "options": [
+        "Uma classe com todos os seus métodos definidos como abstratos.",
+        "Uma interface que define um conjunto de métodos que as classes implementadoras devem fornecer.",
+        "Uma classe base que fornece implementações padrão para alguns ou todos os seus métodos.",
+        "Um método que oculta a complexidade dos detalhes de implementação, fornecendo uma interface simples para o usuário."
+      ],
+      "answer": "Uma interface que define um conjunto de métodos que as classes implementadoras devem fornecer."
+    },
+    {
+      "id": 14,
+      "question": "Em que circunstância a abstração NÃO é recomendada?",
+      "options": [
+        "Quando é necessário esconder a complexidade interna de componentes do sistema.",
+        "Quando se deseja forçar subclasses a implementar métodos específicos.",
+        "Quando detalhes de implementação específicos são cruciais para o entendimento do sistema.",
+        "Quando se quer garantir que uma interface seja consistente entre diferentes implementações."
+      ],
+      "answer": "Quando detalhes de implementação específicos são cruciais para o entendimento do sistema."
+    },
+    {
+      "id": 15,
+      "question": "O que encapsulamento permite em POO?",
+      "options": [
+        "Uma classe implementar interfaces múltiplas.",
+        "Um objeto manter seu estado interno privado, expondo apenas métodos selecionados para o mundo exterior.",
+        "Uma classe herdar diretamente propriedades de múltiplas classes base.",
+        "Métodos de uma classe acessarem diretamente os campos privados de outra classe."
+      ],
+      "answer": "Um objeto manter seu estado interno privado, expondo apenas métodos selecionados para o mundo exterior."
+    },
+    {
+      "id": 16,
+      "question": "Qual é o propósito principal do encapsulamento?",
+      "options": [
+        "Permitir a herança múltipla de classes.",
+        "Proteger o estado interno de um objeto contra acesso e modificação não autorizados.",
+        "Facilitar o polimorfismo entre classes não relacionadas.",
+        "Reduzir a necessidade de testes automatizados."
+      ],
+      "answer": "Proteger o estado interno de um objeto contra acesso e modificação não autorizados."
+    },
+    {
+      "id": 17,
+      "question": "Em qual dos seguintes casos o encapsulamento é mal aplicado?",
+      "options": [
+        "Quando todos os atributos de uma classe são privados e acessíveis apenas por meio de métodos getter e setter.",
+        "Quando um atributo é declarado como público e é acessado diretamente por outras classes.",
+        "Quando uma classe expõe apenas uma interface bem definida para interação com outros objetos.",
+        "Quando métodos internos são protegidos por restrições de acesso para prevenir uso indevido."
+      ],
+      "answer": "Quando um atributo é declarado como público e é acessado diretamente por outras classes."
+    },
+    {
+      "id": 18,
+      "question": "O que é uma exceção em programação?",
+      "options": [
+        "Uma condição que altera o fluxo normal de execução de um programa devido a um erro ocorrido.",
+        "Um evento que ocorre quando um programa tenta acessar recursos não disponíveis.",
+        "Uma técnica usada para modificar o comportamento de um programa em tempo de execução.",
+        "Uma interface implementada por classes que necessitam de tratamento especial durante a execução."
+      ],
+      "answer": "Uma condição que altera o fluxo normal de execução de um programa devido a um erro ocorrido."
+    },
+    {
+      "id": 19,
+      "question": "Qual das seguintes afirmações sobre o tratamento de exceções é correta?",
+      "options": [
+        "O tratamento de exceções substitui a necessidade de validações de entrada.",
+        "Exceções devem ser usadas para controlar o fluxo normal do programa.",
+        "Capturar exceções genéricas, como Exception em Java, é considerado uma boa prática de programação.",
+        "Tratar exceções permite que um programa continue sua execução após um erro ocorrer, de forma controlada."
+      ],
+      "answer": "Tratar exceções permite que um programa continue sua execução após um erro ocorrer, de forma controlada."
+    },
+    {
+      "id": 20,
+      "question": "Em que situação o uso de exceções é considerado inadequado?",
+      "options": [
+        "Para notificar erros que não podem ser previstos ou evitados pelo programa.",
+        "Para controlar fluxos de execução como loops ou condições simples.",
+        "Para lidar com situações onde recursos externos não estão disponíveis.",
+        "Quando uma operação depende de uma condição externa que pode falhar."
+      ],
+      "answer": "Para controlar fluxos de execução como loops ou condições simples."
+    },
+    {
+      "id": 21,
+      "question": "O que caracteriza o padrão de desenvolvimento Fachada (Facade)?",
+      "options": [
+        "Proporciona uma interface simplificada para interagir com um ou mais sistemas complexos.",
+        "Permite que sistemas complexos se comuniquem diretamente, eliminando a necessidade de uma interface.",
+        "Oferece uma maneira de subsistemas se comunicarem através de uma série de interfaces complexas.",
+        "Desacopla completamente o cliente das classes com as quais ele está interagindo."
+      ],
+      "answer": "Proporciona uma interface simplificada para interagir com um ou mais sistemas complexos."
+    },
+    {
+      "id": 22,
+      "question": "Qual é o principal objetivo ao se utilizar o padrão Fachada?",
+      "options": [
+        "Aumentar a complexidade do sistema para oferecer mais flexibilidade.",
+        "Reduzir as dependências entre sistemas diferentes.",
+        "Proporcionar uma única interface para um conjunto de interfaces em um subsistema, tornando o subsistema mais fácil de ser usado.",
+        "Facilitar o polimorfismo entre diferentes subsistemas."
+      ],
+      "answer": "Proporcionar uma única interface para um conjunto de interfaces em um subsistema, tornando o subsistema mais fácil de ser usado."
     }
   ]
 }
