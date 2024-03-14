@@ -76,6 +76,14 @@ function toggleTheme() {
   isDarkTheme = !isDarkTheme;
   document.body.classList.toggle('light-theme', !isDarkTheme);
 }
+function confirmHomeRedirect() {
+    // Exibe um alerta de confirmação
+    const userConfirmed = confirm("Você deseja retornar à página inicial?");
+    if (userConfirmed) {
+      // Se o usuário confirmar, redirecione para a página inicial
+      window.location.href = "index.html"; // Substitua "index.html" pelo URL da sua página inicial, se for diferente
+    }
+}
 
 // Inicia o quiz quando a página é carregada
 window.onload = function() {
