@@ -649,6 +649,73 @@
         "A medida da força de ligação interna de uma classe, indicando quão focada e especializada é sua responsabilidade."
       ],
       "answer": "A medida da força de ligação interna de uma classe, indicando quão focada e especializada é sua responsabilidade."
+    },
+    {
+      "id": 61,
+      "question": "Em POO, qual é a função da palavra-chave final em Java?",
+      "options": [
+        "Indica que uma variável pode ser alterada.",
+        "Impede a herança de uma classe ou a sobrescrita de métodos.",
+        "Define um método que pode ser acessado sem criar uma instância da classe.",
+        "Inicializa variáveis de instância com valores padrão."
+      ],
+      "answer": "Impede a herança de uma classe ou a sobrescrita de métodos."
+    },
+    {
+      "id": 62,
+      "question": "Qual termo descreve melhor a relação entre uma classe Veículo e suas subclasses Carro e Motocicleta?",
+      "options": [
+        "Agregação",
+        "Composição",
+        "Herança",
+        "Associação"
+      ],
+      "answer": "Herança"
+    },
+    {
+      "id": 63,
+      "question": "Qual é a diferença entre sobrecarga e sobrescrita de métodos em POO?",
+      "options": [
+        "Sobrecarga permite criar métodos com o mesmo nome na mesma classe, desde que tenham parâmetros diferentes. Sobrescrita permite alterar a implementação de um método herdado.",
+        "Sobrecarga ocorre entre classes pai e filha, enquanto sobrescrita ocorre dentro de uma única classe.",
+        "Sobrecarga é utilizada para alterar valores de atributos, enquanto sobrescrita define novos atributos.",
+        "Sobrecarga e sobrescrita são termos que descrevem o mesmo processo de modificação de métodos."
+      ],
+      "answer": "Sobrecarga permite criar métodos com o mesmo nome na mesma classe, desde que tenham parâmetros diferentes. Sobrescrita permite alterar a implementação de um método herdado."
+    },
+    {
+      "id": 64,
+      "question": "O que acontece quando um construtor é chamado em POO?",
+      "options": [
+        "O método principal da aplicação é executado.",
+        "Uma cópia de um objeto existente é criada.",
+        "Um novo objeto da classe é criado e inicializado.",
+        "Os métodos da classe são automaticamente sobrescritos."
+      ],
+      "answer": "Um novo objeto da classe é criado e inicializado."
+    },
+    {
+      "id": 65,
+      "question": "Em POO, o que significa declarar um atributo como privado?",
+      "options": [
+        "O atributo pode ser acessado por qualquer classe no programa.",
+        "O atributo só pode ser acessado dentro da classe em que foi declarado.",
+        "O atributo pode ser acessado apenas por classes dentro do mesmo pacote.",
+        "O atributo é automaticamente compartilhado entre todas as instâncias da classe."
+      ],
+      "answer": "O atributo só pode ser acessado dentro da classe em que foi declarado."
+    },
+    {
+      "id": 66,
+      "question": "Em POO, qual é o propósito e o momento adequado para usar a palavra-chave 'static'?",
+      "options": [
+        "Para definir variáveis que podem ser alteradas dentro de instâncias individuais de uma classe.",
+        "Para criar métodos que são relevantes para todas as instâncias de uma classe e podem ser chamados sem uma instância específica.",
+        "Para marcar classes que não podem ser instanciadas.",
+        "Para garantir que um método seja sobrescrito em todas as subclasses."
+      ],
+      "answer": "Para criar métodos que são relevantes para todas as instâncias de uma classe e podem ser chamados sem uma instância específica."
     }
+    
   ]
 }
